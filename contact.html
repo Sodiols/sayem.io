@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>Sodiol Sayem</title>
+  <link rel="stylesheet" href="nav.css">
+
+  <!--============================== bootsrap cdn links=============================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <style>
+    * {
+      color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 2vw 4vw;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-left: 25%;
+    }
+
+    form input,
+    form textarea {
+      border: 1px solid #cd98ff;
+      margin: 10px 0;
+      padding: 20px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    form button {
+      padding: 15px;
+      background: blueviolet;
+      color: white;
+      font-size: 18px;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      width: 20%;
+      border-radius: 10px;
+    }
+
+    @media (width < 900px) {
+      form {
+        margin-left: -0.01%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ==================================== Nav open ====================================== -->
+
+  <nav>
+    <div class="logo">
+      <span><b class="font-bold" style="color: #cd98ff;">&lt;/&gt;</b> Sodiol Sayem</span>
+    </div>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="./index.html" class="active nav-links">home</a></li>
+        <li><a href="./services.html" class="nav-links">Services</a></li>
+        <li><a href="./about.html" class="nav-links">about</a></li>
+        <li><a href="./contact.html" class="nav-links">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================================== Nav close ===================================== -->
+
+  <div class="container-fluid langs">
+    <div class="home-icon">
+      <i class="bi bi-house-door-fill" style="color: #cd98ff;"></i>
+    </div>
+    <div class="langs-item">
+      <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+      <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+      <a href="https://www.w3schools.com/js/default.asp">JS</a>
+      <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootsrap</a>
+      <a href="https://www.w3schools.com/react/default.asp">REACT</a>
+    </div>
+    <div class="search-icon">
+      <i class="bi bi-search" style="color: #cd98ff;"></i>
+    </div>
+  </div>
+
+  <!-- ================================== langs close ======================================-->
+  <span class="blur"></span>
+  <span class="blur"></span>
+
+
+
+  <!-- contact option open -->
+
+  <div class="container-fluid">
+    <form action="mailto:itssayem2023@gmail.com">
+      <h3 class="text-center" style="font-weight: bold;">Get In <span style="color: #cd98ff;">Touch</span></h3>
+
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- contact option close -->
+
+
+
+
+
+
+  <footer style="padding-left: 40px;">
+    <div class="footer-text">
+      <h2 style="color: #cd98ff; font-weight: 500;">Sodiol Sayem | <span
+          style="font-size: 15px; color: white;">Copyright &copy; 2023 Sodiol Sayem</span></h2>
+    </div>
+
+    <div class="footer-icons">
+      <a href="https://www.facebook.com/profile.php?id=100090420093597"><i class="bi bi-facebook"
+          style="color: #adadad;"></i></a>
+      <a href="https://www.instagram.com/sodiol_sayem/"><i class="bi bi-instagram" style="color: #adadad;"></i></a>
+      <a href="https://twitter.com/sodiol_sayem"><i class="bi bi-twitter" style="color: #adadad;"></i></a>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

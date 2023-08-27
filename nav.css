@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Inter&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background: #0b0513;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ********************** nav open *************************** */
+nav, .langs {
+    position: sticky;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+nav .logo span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #cd98ff;
+}
+
+nav .nav-bar {
+    margin-right: 40px;
+}
+
+nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-bar ul li {
+    padding: 10px;
+}
+
+nav .nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+nav .nav-bar ul li a:hover {
+    text-decoration: 1px blueviolet underline;
+}
+
+/* ****************** langs open ******************* */
+
+.langs {
+    display: flex;
+    justify-content: space-between;
+    color: #cd98ff;
+}
+
+.langs .langs-item a{
+    text-decoration: none;
+    color: #cd98ff;
+    font-weight: bolder;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: .3s;
+}
+
+.langs .langs-item a:hover {
+    text-decoration: 2px underline;
+}
+
+.home-icon {
+    margin-left: 40px;
+}
+
+.search-icon{
+    margin-right: 40px;
+}
+
+.search-icon i, .home-icon i {
+    cursor: pointer;
+}
+
+/* ****************** langs close********************/
+
+
+/* footer open  */
+
+footer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .footer-icons a{
+    text-decoration: none;
+    color: #adadad;
+    padding: 10px;
+}
+
+/* footer close */
+
+
+.blur {
+    position: fixed;
+    box-shadow: 0 0 1000px 50px #cd98ff;
+}
+
+i {
+    font-size: 23px;
+}
+
+@media(width < 900px) {
+    .logo span {
+        width: 35%;
+    }
+
+    .search-icon{
+        margin-right: 20%;
+    }
+}
