@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Sodiol Sayem</title>
     <link rel="stylesheet" href="nav.css">
 
@@ -78,13 +79,13 @@
             <p>I am utilizing various languages such as HTML, CSS, Bootstrap 5 (Framework), and JavaScript (Learning stage)</p>
             <a href="#" class="btn" id="btn" style="background: transparent;border: 1px solid blueviolet; color: white;" onclick="dhong()">Read More</a>
         </div>
-        <div class="col-12 col-md-4 services-content">
+        <div class="col-12 col-md-4 services-content" data-aos="zoom-in-up">
             <i class="bi bi-code-slash"></i>
             <h2 class="text-center" style="font-weight: bold;">Figma to <span style="color: #cd98ff;">HTML</span></h2>
             <p>I can create websites from Figma to HTML. By provided your Figma file using HTML, CSS, Bootstrap5(FrameWork)</p>
             <a href="#" class="btn" id="btn" style="background: transparent;border: 1px solid blueviolet; color: white;" onclick="dhong()">Read More</a>
         </div>
-        <div class="col-12 col-md-4 services-content">
+        <div class="col-12 col-md-4 services-content" data-aos="fade-left">
             <i class="bi bi-code-slash"></i>
             <h2 class="text-center" style="font-weight: bold;">PSD to <span style="color: #cd98ff;">HTML</span></h2>
             <p style="width: 95%;">I can create websites from PSD to HTML. By provided your PSD file using HTML, CSS, Bootstrap5  (FrameWork)</p>
@@ -115,7 +116,10 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 <script>
     function dhong() {
     alert('This is a demo web page. I will update it later.');
